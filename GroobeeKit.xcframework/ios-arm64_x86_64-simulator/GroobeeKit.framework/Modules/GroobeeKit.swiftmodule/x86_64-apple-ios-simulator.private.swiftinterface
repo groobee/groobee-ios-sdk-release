@@ -175,7 +175,7 @@ public struct MessageText : Swift.Codable {
 @objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
 public class GroobeeServiceManager : ObjectiveC.NSObject, Foundation.URLSessionDelegate {
   public static let PATTERN_MATCHES_URL: Swift.String
-  public static func sendAsyncRequest(_ url: Swift.String, _ request: Swift.String)
+  public static func sendAuthRequest(_ url: Swift.String, _ request: Swift.String) -> Swift.Bool
   public static func sendSyncPushRequest(_ url: Swift.String, _ request: Swift.String) -> Swift.String
   public static func sendAsyncPushRequest(_ url: Swift.String, _ request: Swift.String, _ responseAgreeds: any GroobeeKit.ResponseAgreeds)
   public static func sendRequest(_ url: Swift.String, _ request: Swift.String, screenId: Swift.String? = nil)
@@ -409,6 +409,19 @@ public class StyleConstraints {
   public static func statsCL(serviceKey: Swift.String, cookieId: Swift.String, userId: Swift.String, campaignKey: Swift.String, msgType: Swift.String, clickData: GroobeeKit.ClickData, trackingId: Swift.String? = nil, memberId: Swift.String? = nil) -> GroobeeKit.RequestParams
   public static func statsShowRecommendGoods(serviceKey: Swift.String, cookieId: Swift.String, userId: Swift.String, campaignKey: Swift.String, algorithmCd: Swift.String, requestId: Swift.String, goods: [GroobeeKit.Goods], memberId: Swift.String? = nil) -> GroobeeKit.RequestParams
   public static func statsClickRecommendGoods(serviceKey: Swift.String, cookieId: Swift.String, userId: Swift.String, campaignKey: Swift.String, algorithmCd: Swift.String, requestId: Swift.String, goods: [GroobeeKit.Goods], memberId: Swift.String? = nil) -> GroobeeKit.RequestParams
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class GroobeeVersionInfo : ObjectiveC.NSObject {
+  @objc public static var sdkVersion: Swift.String {
+    @objc get
+  }
+  @objc public static var sdkBuildVersion: Swift.String {
+    @objc get
+  }
+  @objc public static var sdkVersionString: Swift.String {
+    @objc get
+  }
+  @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class RequestParams : Swift.Codable {

@@ -452,6 +452,17 @@ SWIFT_CLASS("_TtC10GroobeeKit21GroobeeServiceManager") SWIFT_AVAILABILITY(ios,in
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_CLASS("_TtC10GroobeeKit18GroobeeVersionInfo")
+@interface GroobeeVersionInfo : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
++ (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkBuildVersion;)
++ (NSString * _Nonnull)sdkBuildVersion SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersionString;)
++ (NSString * _Nonnull)sdkVersionString SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 SWIFT_CLASS("_TtC10GroobeeKit8PushData")
 @interface PushData : NSObject
 - (NSString * _Nullable)getCampaignKey SWIFT_WARN_UNUSED_RESULT;
@@ -948,6 +959,17 @@ SWIFT_CLASS("_TtC10GroobeeKit19GroobeeNotification") SWIFT_AVAILABILITY(ios,intr
 
 SWIFT_CLASS("_TtC10GroobeeKit21GroobeeServiceManager") SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface GroobeeServiceManager : NSObject <NSURLSessionDelegate>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC10GroobeeKit18GroobeeVersionInfo")
+@interface GroobeeVersionInfo : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
++ (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkBuildVersion;)
++ (NSString * _Nonnull)sdkBuildVersion SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersionString;)
++ (NSString * _Nonnull)sdkVersionString SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
