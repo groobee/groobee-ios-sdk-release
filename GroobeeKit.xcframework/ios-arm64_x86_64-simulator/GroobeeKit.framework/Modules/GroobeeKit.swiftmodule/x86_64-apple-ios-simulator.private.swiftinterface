@@ -192,6 +192,18 @@ public struct InAppMessageModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@_inheritsConvenienceInitializers @objc final public class GroobeeTraceContext : ObjectiveC.NSObject {
+  @objc(setTraceId:) public static func set(_ traceId: Swift.String?)
+  @objc public static func get() -> Swift.String?
+  @discardableResult
+  @objc public static func renewTraceId() -> Swift.String
+  public static func perform<T>(traceId: Swift.String?, _ work: () throws -> T) rethrows -> T
+  public static func wrap(_ traceId: Swift.String?, _ work: @escaping () -> Swift.Void) -> () -> Swift.Void
+  public static func wrapCurrent(_ work: @escaping () -> Swift.Void) -> () -> Swift.Void
+  @objc public static func clear()
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc public enum GroobeeLogLevel : Swift.Int {
   case verbose = 2
   case debug = 3
@@ -208,19 +220,14 @@ public struct InAppMessageModel : Swift.Codable {
 @objc public protocol GroobeeLogCallback {
   @objc func onLog(level: Swift.Int, tag: Swift.String, message: Swift.String)
 }
-@_inheritsConvenienceInitializers @objc final public class GroobeeTraceContext : ObjectiveC.NSObject {
-  @objc(setTraceId:) public static func set(_ traceId: Swift.String?)
-  @objc public static func get() -> Swift.String?
-  @objc public static func clear()
-  @objc override dynamic public init()
-  @objc deinit
-}
 @_inheritsConvenienceInitializers @objc final public class LoggerUtils : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc public static func setLogLevel(_ level: Swift.Int)
   @objc public static func getLogLevel() -> Swift.Int
   @objc public static func setDetailLogEnabled(_ enabled: Swift.Bool)
   @objc public static func setTraceEnabled(_ enabled: Swift.Bool)
+  @discardableResult
+  @objc public static func renewTraceId() -> Swift.String
   @objc public static func setLogCallback(_ callback: (any GroobeeKit.GroobeeLogCallback)?)
   @objc(setOptions:value:) public static func setOptions(_ key: Swift.String, value: Any)
   @objc public static func getClassLogTag(_ classForTag: Swift.AnyClass) -> Swift.String

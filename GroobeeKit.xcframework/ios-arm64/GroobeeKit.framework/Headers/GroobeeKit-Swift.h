@@ -470,6 +470,7 @@ SWIFT_CLASS("_TtC10GroobeeKit19GroobeeTraceContext")
 @interface GroobeeTraceContext : NSObject
 + (void)setTraceId:(NSString * _Nullable)traceId;
 + (NSString * _Nullable)get SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)renewTraceId;
 + (void)clear;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -492,6 +493,7 @@ SWIFT_CLASS("_TtC10GroobeeKit11LoggerUtils")
 + (NSInteger)getLogLevel SWIFT_WARN_UNUSED_RESULT;
 + (void)setDetailLogEnabled:(BOOL)enabled;
 + (void)setTraceEnabled:(BOOL)enabled;
++ (NSString * _Nonnull)renewTraceId;
 + (void)setLogCallback:(id <GroobeeLogCallback> _Nullable)callback;
 + (void)setOptions:(NSString * _Nonnull)key value:(id _Nonnull)value;
 + (NSString * _Nonnull)getClassLogTag:(Class _Nonnull)classForTag SWIFT_WARN_UNUSED_RESULT;
