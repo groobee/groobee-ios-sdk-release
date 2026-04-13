@@ -435,6 +435,20 @@ SWIFT_CLASS("_TtC10GroobeeKit19GroobeeKitLifeCycle") SWIFT_AVAILABILITY(ios,intr
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_PROTOCOL("_TtP10GroobeeKit18GroobeeLogCallback_")
+@protocol GroobeeLogCallback
+- (void)onLogWithLevel:(NSInteger)level tag:(NSString * _Nonnull)tag message:(NSString * _Nonnull)message;
+@end
+
+typedef SWIFT_ENUM(NSInteger, GroobeeLogLevel, open) {
+  GroobeeLogLevelVerbose = 2,
+  GroobeeLogLevelDebug = 3,
+  GroobeeLogLevelInfo = 4,
+  GroobeeLogLevelWarn = 5,
+  GroobeeLogLevelError = 6,
+  GroobeeLogLevelNone = 7,
+};
+
 @class UNNotificationRequest;
 @class UNMutableNotificationContent;
 @class UNNotificationContent;
@@ -452,6 +466,14 @@ SWIFT_CLASS("_TtC10GroobeeKit21GroobeeServiceManager") SWIFT_AVAILABILITY(ios,in
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_CLASS("_TtC10GroobeeKit19GroobeeTraceContext")
+@interface GroobeeTraceContext : NSObject
++ (void)setTraceId:(NSString * _Nullable)traceId;
++ (NSString * _Nullable)get SWIFT_WARN_UNUSED_RESULT;
++ (void)clear;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 SWIFT_CLASS("_TtC10GroobeeKit18GroobeeVersionInfo")
 @interface GroobeeVersionInfo : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
@@ -461,6 +483,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersionString;)
 + (NSString * _Nonnull)sdkVersionString SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC10GroobeeKit11LoggerUtils")
+@interface LoggerUtils : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
++ (void)setLogLevel:(NSInteger)level;
++ (NSInteger)getLogLevel SWIFT_WARN_UNUSED_RESULT;
++ (void)setDetailLogEnabled:(BOOL)enabled;
++ (void)setTraceEnabled:(BOOL)enabled;
++ (void)setLogCallback:(id <GroobeeLogCallback> _Nullable)callback;
++ (void)setOptions:(NSString * _Nonnull)key value:(id _Nonnull)value;
++ (NSString * _Nonnull)getClassLogTag:(Class _Nonnull)classForTag SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)maskSensitive:(NSString * _Nullable)value SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)sanitizeSensitiveData:(NSString * _Nullable)message SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)sanitizeUrl:(NSString * _Nullable)url SWIFT_WARN_UNUSED_RESULT;
 @end
 
 SWIFT_CLASS("_TtC10GroobeeKit8PushData")
@@ -945,6 +982,20 @@ SWIFT_CLASS("_TtC10GroobeeKit19GroobeeKitLifeCycle") SWIFT_AVAILABILITY(ios,intr
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_PROTOCOL("_TtP10GroobeeKit18GroobeeLogCallback_")
+@protocol GroobeeLogCallback
+- (void)onLogWithLevel:(NSInteger)level tag:(NSString * _Nonnull)tag message:(NSString * _Nonnull)message;
+@end
+
+typedef SWIFT_ENUM(NSInteger, GroobeeLogLevel, open) {
+  GroobeeLogLevelVerbose = 2,
+  GroobeeLogLevelDebug = 3,
+  GroobeeLogLevelInfo = 4,
+  GroobeeLogLevelWarn = 5,
+  GroobeeLogLevelError = 6,
+  GroobeeLogLevelNone = 7,
+};
+
 @class UNNotificationRequest;
 @class UNMutableNotificationContent;
 @class UNNotificationContent;
@@ -962,6 +1013,14 @@ SWIFT_CLASS("_TtC10GroobeeKit21GroobeeServiceManager") SWIFT_AVAILABILITY(ios,in
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_CLASS("_TtC10GroobeeKit19GroobeeTraceContext")
+@interface GroobeeTraceContext : NSObject
++ (void)setTraceId:(NSString * _Nullable)traceId;
++ (NSString * _Nullable)get SWIFT_WARN_UNUSED_RESULT;
++ (void)clear;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 SWIFT_CLASS("_TtC10GroobeeKit18GroobeeVersionInfo")
 @interface GroobeeVersionInfo : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
@@ -971,6 +1030,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersionString;)
 + (NSString * _Nonnull)sdkVersionString SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC10GroobeeKit11LoggerUtils")
+@interface LoggerUtils : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
++ (void)setLogLevel:(NSInteger)level;
++ (NSInteger)getLogLevel SWIFT_WARN_UNUSED_RESULT;
++ (void)setDetailLogEnabled:(BOOL)enabled;
++ (void)setTraceEnabled:(BOOL)enabled;
++ (void)setLogCallback:(id <GroobeeLogCallback> _Nullable)callback;
++ (void)setOptions:(NSString * _Nonnull)key value:(id _Nonnull)value;
++ (NSString * _Nonnull)getClassLogTag:(Class _Nonnull)classForTag SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)maskSensitive:(NSString * _Nullable)value SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)sanitizeSensitiveData:(NSString * _Nullable)message SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)sanitizeUrl:(NSString * _Nullable)url SWIFT_WARN_UNUSED_RESULT;
 @end
 
 SWIFT_CLASS("_TtC10GroobeeKit8PushData")

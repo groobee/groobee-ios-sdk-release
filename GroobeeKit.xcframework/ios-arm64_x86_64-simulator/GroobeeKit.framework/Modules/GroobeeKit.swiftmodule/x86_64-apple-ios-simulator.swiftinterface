@@ -192,6 +192,83 @@ public struct InAppMessageModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@objc public enum GroobeeLogLevel : Swift.Int {
+  case verbose = 2
+  case debug = 3
+  case info = 4
+  case warn = 5
+  case error = 6
+  case none = 7
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol GroobeeLogCallback {
+  @objc func onLog(level: Swift.Int, tag: Swift.String, message: Swift.String)
+}
+@_inheritsConvenienceInitializers @objc final public class GroobeeTraceContext : ObjectiveC.NSObject {
+  @objc(setTraceId:) public static func set(_ traceId: Swift.String?)
+  @objc public static func get() -> Swift.String?
+  @objc public static func clear()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class LoggerUtils : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public static func setLogLevel(_ level: Swift.Int)
+  @objc public static func getLogLevel() -> Swift.Int
+  @objc public static func setDetailLogEnabled(_ enabled: Swift.Bool)
+  @objc public static func setTraceEnabled(_ enabled: Swift.Bool)
+  @objc public static func setLogCallback(_ callback: (any GroobeeKit.GroobeeLogCallback)?)
+  @objc(setOptions:value:) public static func setOptions(_ key: Swift.String, value: Any)
+  @objc public static func getClassLogTag(_ classForTag: Swift.AnyClass) -> Swift.String
+  @objc public static func maskSensitive(_ value: Swift.String?) -> Swift.String?
+  @objc public static func sanitizeSensitiveData(_ message: Swift.String?) -> Swift.String?
+  @objc public static func sanitizeUrl(_ url: Swift.String?) -> Swift.String?
+  @discardableResult
+  public static func v(_ tag: Swift.String, _ msg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func v(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func v(_ tag: Swift.String, _ msg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func v(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func d(_ tag: Swift.String, _ msg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func d(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func d(_ tag: Swift.String, _ msg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func d(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func i(_ tag: Swift.String, _ msg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func i(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func i(_ tag: Swift.String, _ msg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func i(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func w(_ tag: Swift.String, _ msg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func w(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func w(_ tag: Swift.String, _ msg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func w(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func e(_ tag: Swift.String, _ msg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func e(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String) -> Swift.Int
+  @discardableResult
+  public static func e(_ tag: Swift.String, _ msg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @discardableResult
+  public static func e(_ tag: Swift.String, _ msg: Swift.String, _ detailedMsg: Swift.String, _ error: any Swift.Error) -> Swift.Int
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @available(iOS 10.0, *)
 public class PopUpView {
   final public let dimView: UIKit.UIView
@@ -551,5 +628,8 @@ public class InAppMessageDisplay {
   public func show(inAppMessage: GroobeeKit.InAppMessageModel, campaignKey: Swift.String, msgType: Swift.String)
   @objc deinit
 }
+extension GroobeeKit.GroobeeLogLevel : Swift.Equatable {}
+extension GroobeeKit.GroobeeLogLevel : Swift.Hashable {}
+extension GroobeeKit.GroobeeLogLevel : Swift.RawRepresentable {}
 extension GroobeeKit.StateLifeCycle : Swift.Equatable {}
 extension GroobeeKit.StateLifeCycle : Swift.Hashable {}
