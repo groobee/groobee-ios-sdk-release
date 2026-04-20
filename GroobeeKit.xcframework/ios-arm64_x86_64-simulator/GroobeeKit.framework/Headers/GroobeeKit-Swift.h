@@ -354,6 +354,7 @@ SWIFT_CLASS("_TtC10GroobeeKit5Goods")
 
 @class GroobeeConfig;
 @protocol ResponseAgreeds;
+@class UNNotificationResponse;
 @protocol ResponseGoods;
 @class NSMutableDictionary;
 @class CLLocation;
@@ -376,6 +377,7 @@ SWIFT_CLASS("_TtC10GroobeeKit7Groobee") SWIFT_AVAILABILITY(ios,introduced=10.0)
 - (void)getPushAgreedWithMemberId:(NSString * _Nonnull)memberId responseAgreeds:(id <ResponseAgreeds> _Nonnull)responseAgreeds;
 - (void)setPushTokenWithPushToken:(NSString * _Nonnull)pushToken;
 - (void)userNotificationCenterWithUserInfo:(NSDictionary * _Nonnull)userInfo;
+- (BOOL)userNotificationCenterWithResponse:(UNNotificationResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
 - (void)didReceiveRemoteNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
 - (BOOL)handleGroobeeRemoteMessageWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
 - (void)inDirectPushOpened;
@@ -412,6 +414,9 @@ SWIFT_CLASS("_TtC10GroobeeKit13GroobeeConfig")
 - (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)getInAppMsgMarginTop SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)getInAppMsgMarginBottom SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getNotificationSettingsButtonDeeplink SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getNotificationSettingsButtonText SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)getHideNotificationSettingsButtonWhenInformationNoti SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -422,6 +427,9 @@ SWIFT_CLASS("_TtCC10GroobeeKit13GroobeeConfig20GroobeeConfigBuilder")
 - (GroobeeConfigBuilder * _Nonnull)setServiceKeyWithServiceKey:(NSString * _Nonnull)serviceKey bundleId:(NSString * _Nonnull)bundleId SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfigBuilder * _Nonnull)setInAppMsgMarginTop:(CGFloat)topMarginValue SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfigBuilder * _Nonnull)setInAppMsgMarginBottom:(CGFloat)bottomMarginValue SWIFT_WARN_UNUSED_RESULT;
+- (GroobeeConfigBuilder * _Nonnull)setNotificationSettingsButton:(NSString * _Nonnull)deeplink SWIFT_WARN_UNUSED_RESULT;
+- (GroobeeConfigBuilder * _Nonnull)setNotificationSettingsButton:(NSString * _Nonnull)text deeplink:(NSString * _Nonnull)deeplink SWIFT_WARN_UNUSED_RESULT;
+- (GroobeeConfigBuilder * _Nonnull)setHideNotificationSettingsButtonWhenInformationNoti:(BOOL)hide SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfig * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
 @end
 
@@ -508,10 +516,12 @@ SWIFT_CLASS("_TtC10GroobeeKit8PushData")
 - (NSString * _Nullable)getPushMsgType SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getPushMsgCnt SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getPushSendDtm SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getGoalCd SWIFT_WARN_UNUSED_RESULT;
 - (PushData * _Nonnull)setCampaignKey:(NSString * _Nonnull)campaignKey SWIFT_WARN_UNUSED_RESULT;
 - (PushData * _Nonnull)setPushMsgType:(NSString * _Nonnull)pushMsgType SWIFT_WARN_UNUSED_RESULT;
 - (PushData * _Nonnull)setPushMsgCnt:(NSString * _Nonnull)pushMsgCnt SWIFT_WARN_UNUSED_RESULT;
 - (PushData * _Nonnull)setPushSendDtm:(NSString * _Nonnull)pushSendDtm SWIFT_WARN_UNUSED_RESULT;
+- (PushData * _Nonnull)setGoalCd:(NSString * _Nonnull)goalCd SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -903,6 +913,7 @@ SWIFT_CLASS("_TtC10GroobeeKit5Goods")
 
 @class GroobeeConfig;
 @protocol ResponseAgreeds;
+@class UNNotificationResponse;
 @protocol ResponseGoods;
 @class NSMutableDictionary;
 @class CLLocation;
@@ -925,6 +936,7 @@ SWIFT_CLASS("_TtC10GroobeeKit7Groobee") SWIFT_AVAILABILITY(ios,introduced=10.0)
 - (void)getPushAgreedWithMemberId:(NSString * _Nonnull)memberId responseAgreeds:(id <ResponseAgreeds> _Nonnull)responseAgreeds;
 - (void)setPushTokenWithPushToken:(NSString * _Nonnull)pushToken;
 - (void)userNotificationCenterWithUserInfo:(NSDictionary * _Nonnull)userInfo;
+- (BOOL)userNotificationCenterWithResponse:(UNNotificationResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
 - (void)didReceiveRemoteNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
 - (BOOL)handleGroobeeRemoteMessageWithUserInfo:(NSDictionary * _Nonnull)userInfo SWIFT_WARN_UNUSED_RESULT;
 - (void)inDirectPushOpened;
@@ -961,6 +973,9 @@ SWIFT_CLASS("_TtC10GroobeeKit13GroobeeConfig")
 - (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)getInAppMsgMarginTop SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)getInAppMsgMarginBottom SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getNotificationSettingsButtonDeeplink SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getNotificationSettingsButtonText SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)getHideNotificationSettingsButtonWhenInformationNoti SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -971,6 +986,9 @@ SWIFT_CLASS("_TtCC10GroobeeKit13GroobeeConfig20GroobeeConfigBuilder")
 - (GroobeeConfigBuilder * _Nonnull)setServiceKeyWithServiceKey:(NSString * _Nonnull)serviceKey bundleId:(NSString * _Nonnull)bundleId SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfigBuilder * _Nonnull)setInAppMsgMarginTop:(CGFloat)topMarginValue SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfigBuilder * _Nonnull)setInAppMsgMarginBottom:(CGFloat)bottomMarginValue SWIFT_WARN_UNUSED_RESULT;
+- (GroobeeConfigBuilder * _Nonnull)setNotificationSettingsButton:(NSString * _Nonnull)deeplink SWIFT_WARN_UNUSED_RESULT;
+- (GroobeeConfigBuilder * _Nonnull)setNotificationSettingsButton:(NSString * _Nonnull)text deeplink:(NSString * _Nonnull)deeplink SWIFT_WARN_UNUSED_RESULT;
+- (GroobeeConfigBuilder * _Nonnull)setHideNotificationSettingsButtonWhenInformationNoti:(BOOL)hide SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfig * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
 @end
 
@@ -1057,10 +1075,12 @@ SWIFT_CLASS("_TtC10GroobeeKit8PushData")
 - (NSString * _Nullable)getPushMsgType SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getPushMsgCnt SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getPushSendDtm SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getGoalCd SWIFT_WARN_UNUSED_RESULT;
 - (PushData * _Nonnull)setCampaignKey:(NSString * _Nonnull)campaignKey SWIFT_WARN_UNUSED_RESULT;
 - (PushData * _Nonnull)setPushMsgType:(NSString * _Nonnull)pushMsgType SWIFT_WARN_UNUSED_RESULT;
 - (PushData * _Nonnull)setPushMsgCnt:(NSString * _Nonnull)pushMsgCnt SWIFT_WARN_UNUSED_RESULT;
 - (PushData * _Nonnull)setPushSendDtm:(NSString * _Nonnull)pushSendDtm SWIFT_WARN_UNUSED_RESULT;
+- (PushData * _Nonnull)setGoalCd:(NSString * _Nonnull)goalCd SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

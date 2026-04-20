@@ -4795,6 +4795,56 @@
           },
           {
             "kind": "Var",
+            "name": "KEY_PUSH_GOAL_CD",
+            "printedName": "KEY_PUSH_GOAL_CD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit15PushConstraintsV16KEY_PUSH_GOAL_CDSSvpZ",
+            "mangledName": "$s10GroobeeKit15PushConstraintsV16KEY_PUSH_GOAL_CDSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit15PushConstraintsV16KEY_PUSH_GOAL_CDSSvgZ",
+                "mangledName": "$s10GroobeeKit15PushConstraintsV16KEY_PUSH_GOAL_CDSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "KEY_PUSH_MSG_CNT",
             "printedName": "KEY_PUSH_MSG_CNT",
             "children": [
@@ -5094,6 +5144,256 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "VALUE_PUSH_GOAL_CD_AD",
+            "printedName": "VALUE_PUSH_GOAL_CD_AD",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit15PushConstraintsV21VALUE_PUSH_GOAL_CD_ADSSvpZ",
+            "mangledName": "$s10GroobeeKit15PushConstraintsV21VALUE_PUSH_GOAL_CD_ADSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit15PushConstraintsV21VALUE_PUSH_GOAL_CD_ADSSvgZ",
+                "mangledName": "$s10GroobeeKit15PushConstraintsV21VALUE_PUSH_GOAL_CD_ADSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "VALUE_PUSH_GOAL_CD_IN",
+            "printedName": "VALUE_PUSH_GOAL_CD_IN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit15PushConstraintsV21VALUE_PUSH_GOAL_CD_INSSvpZ",
+            "mangledName": "$s10GroobeeKit15PushConstraintsV21VALUE_PUSH_GOAL_CD_INSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit15PushConstraintsV21VALUE_PUSH_GOAL_CD_INSSvgZ",
+                "mangledName": "$s10GroobeeKit15PushConstraintsV21VALUE_PUSH_GOAL_CD_INSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "VALUE_PUSH_CATEGORY_NOTIFICATION_SETTINGS",
+            "printedName": "VALUE_PUSH_CATEGORY_NOTIFICATION_SETTINGS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit15PushConstraintsV41VALUE_PUSH_CATEGORY_NOTIFICATION_SETTINGSSSvpZ",
+            "mangledName": "$s10GroobeeKit15PushConstraintsV41VALUE_PUSH_CATEGORY_NOTIFICATION_SETTINGSSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit15PushConstraintsV41VALUE_PUSH_CATEGORY_NOTIFICATION_SETTINGSSSvgZ",
+                "mangledName": "$s10GroobeeKit15PushConstraintsV41VALUE_PUSH_CATEGORY_NOTIFICATION_SETTINGSSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "VALUE_PUSH_ACTION_NOTIFICATION_SETTINGS",
+            "printedName": "VALUE_PUSH_ACTION_NOTIFICATION_SETTINGS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit15PushConstraintsV39VALUE_PUSH_ACTION_NOTIFICATION_SETTINGSSSvpZ",
+            "mangledName": "$s10GroobeeKit15PushConstraintsV39VALUE_PUSH_ACTION_NOTIFICATION_SETTINGSSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit15PushConstraintsV39VALUE_PUSH_ACTION_NOTIFICATION_SETTINGSSSvgZ",
+                "mangledName": "$s10GroobeeKit15PushConstraintsV39VALUE_PUSH_ACTION_NOTIFICATION_SETTINGSSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "VALUE_PUSH_ACTION_TITLE_NOTIFICATION_SETTINGS",
+            "printedName": "VALUE_PUSH_ACTION_TITLE_NOTIFICATION_SETTINGS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit15PushConstraintsV45VALUE_PUSH_ACTION_TITLE_NOTIFICATION_SETTINGSSSvpZ",
+            "mangledName": "$s10GroobeeKit15PushConstraintsV45VALUE_PUSH_ACTION_TITLE_NOTIFICATION_SETTINGSSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit15PushConstraintsV45VALUE_PUSH_ACTION_TITLE_NOTIFICATION_SETTINGSSSvgZ",
+                "mangledName": "$s10GroobeeKit15PushConstraintsV45VALUE_PUSH_ACTION_TITLE_NOTIFICATION_SETTINGSSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -5370,6 +5670,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GroobeeKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
         "declKind": "Import",
         "moduleName": "GroobeeKit"
       },
@@ -6020,6 +6327,36 @@
               "AccessControl",
               "ObjC",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)Groobee(im)userNotificationCenterWithResponse:",
+            "mangledName": "$s10GroobeeKit0A0C22userNotificationCenter8responseSbSo22UNNotificationResponseC_tF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "objc_name": "userNotificationCenterWithResponse:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -11291,6 +11628,57 @@
         "children": [
           {
             "kind": "Var",
+            "name": "INFO_PLIST_APP_GROUP",
+            "printedName": "INFO_PLIST_APP_GROUP",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit11ConstraintsV20INFO_PLIST_APP_GROUPSSvpZ",
+            "mangledName": "$s10GroobeeKit11ConstraintsV20INFO_PLIST_APP_GROUPSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit11ConstraintsV20INFO_PLIST_APP_GROUPSSvgZ",
+                "mangledName": "$s10GroobeeKit11ConstraintsV20INFO_PLIST_APP_GROUPSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "GROOBEE_SERVICE_KEY",
             "printedName": "GROOBEE_SERVICE_KEY",
             "children": [
@@ -11309,8 +11697,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -11480,6 +11867,156 @@
                 "declKind": "Accessor",
                 "usr": "s:10GroobeeKit11ConstraintsV28IN_APP_MESSAGE_MARGIN_BOTTOMSSvgZ",
                 "mangledName": "$s10GroobeeKit11ConstraintsV28IN_APP_MESSAGE_MARGIN_BOTTOMSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "NOTIFICATION_SETTINGS_BUTTON_DEEPLINK",
+            "printedName": "NOTIFICATION_SETTINGS_BUTTON_DEEPLINK",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit11ConstraintsV37NOTIFICATION_SETTINGS_BUTTON_DEEPLINKSSvpZ",
+            "mangledName": "$s10GroobeeKit11ConstraintsV37NOTIFICATION_SETTINGS_BUTTON_DEEPLINKSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit11ConstraintsV37NOTIFICATION_SETTINGS_BUTTON_DEEPLINKSSvgZ",
+                "mangledName": "$s10GroobeeKit11ConstraintsV37NOTIFICATION_SETTINGS_BUTTON_DEEPLINKSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "NOTIFICATION_SETTINGS_BUTTON_TEXT",
+            "printedName": "NOTIFICATION_SETTINGS_BUTTON_TEXT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit11ConstraintsV33NOTIFICATION_SETTINGS_BUTTON_TEXTSSvpZ",
+            "mangledName": "$s10GroobeeKit11ConstraintsV33NOTIFICATION_SETTINGS_BUTTON_TEXTSSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit11ConstraintsV33NOTIFICATION_SETTINGS_BUTTON_TEXTSSvgZ",
+                "mangledName": "$s10GroobeeKit11ConstraintsV33NOTIFICATION_SETTINGS_BUTTON_TEXTSSvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "HIDE_NOTIFICATION_SETTINGS_BUTTON_WHEN_INFORMATION_NOTI",
+            "printedName": "HIDE_NOTIFICATION_SETTINGS_BUTTON_WHEN_INFORMATION_NOTI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit11ConstraintsV55HIDE_NOTIFICATION_SETTINGS_BUTTON_WHEN_INFORMATION_NOTISSvpZ",
+            "mangledName": "$s10GroobeeKit11ConstraintsV55HIDE_NOTIFICATION_SETTINGS_BUTTON_WHEN_INFORMATION_NOTISSvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit11ConstraintsV55HIDE_NOTIFICATION_SETTINGS_BUTTON_WHEN_INFORMATION_NOTISSvgZ",
+                "mangledName": "$s10GroobeeKit11ConstraintsV55HIDE_NOTIFICATION_SETTINGS_BUTTON_WHEN_INFORMATION_NOTISSvgZ",
                 "moduleName": "GroobeeKit",
                 "static": true,
                 "implicit": true,
@@ -15068,6 +15605,109 @@
           },
           {
             "kind": "Function",
+            "name": "setNotificationSettingsButton",
+            "printedName": "setNotificationSettingsButton(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroobeeConfigBuilder",
+                "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(pl)Builder(im)setNotificationSettingsButton:",
+            "mangledName": "$s10GroobeeKit7BuilderP29setNotificationSettingsButtonyAA0A6ConfigC0ahC0CSSF",
+            "moduleName": "GroobeeKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroobeeKit.Builder>",
+            "sugared_genericSig": "<Self where Self : GroobeeKit.Builder>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNotificationSettingsButton",
+            "printedName": "setNotificationSettingsButton(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroobeeConfigBuilder",
+                "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(pl)Builder(im)setNotificationSettingsButton:deeplink:",
+            "mangledName": "$s10GroobeeKit7BuilderP29setNotificationSettingsButtonyAA0A6ConfigC0ahC0CSS_SStF",
+            "moduleName": "GroobeeKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroobeeKit.Builder>",
+            "sugared_genericSig": "<Self where Self : GroobeeKit.Builder>",
+            "protocolReq": true,
+            "objc_name": "setNotificationSettingsButton:deeplink:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setHideNotificationSettingsButtonWhenInformationNoti",
+            "printedName": "setHideNotificationSettingsButtonWhenInformationNoti(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroobeeConfigBuilder",
+                "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(pl)Builder(im)setHideNotificationSettingsButtonWhenInformationNoti:",
+            "mangledName": "$s10GroobeeKit7BuilderP52setHideNotificationSettingsButtonWhenInformationNotiyAA0A6ConfigC0alC0CSbF",
+            "moduleName": "GroobeeKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroobeeKit.Builder>",
+            "sugared_genericSig": "<Self where Self : GroobeeKit.Builder>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "build",
             "printedName": "build()",
             "children": [
@@ -15242,6 +15882,78 @@
             "declKind": "Func",
             "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(im)getInAppMsgMarginBottom",
             "mangledName": "$s10GroobeeKit0A6ConfigC23getInAppMsgMarginBottom12CoreGraphics7CGFloatVyF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNotificationSettingsButtonDeeplink",
+            "printedName": "getNotificationSettingsButtonDeeplink()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(im)getNotificationSettingsButtonDeeplink",
+            "mangledName": "$s10GroobeeKit0A6ConfigC37getNotificationSettingsButtonDeeplinkSSyF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNotificationSettingsButtonText",
+            "printedName": "getNotificationSettingsButtonText()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(im)getNotificationSettingsButtonText",
+            "mangledName": "$s10GroobeeKit0A6ConfigC33getNotificationSettingsButtonTextSSyF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHideNotificationSettingsButtonWhenInformationNoti",
+            "printedName": "getHideNotificationSettingsButtonWhenInformationNoti()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(im)getHideNotificationSettingsButtonWhenInformationNoti",
+            "mangledName": "$s10GroobeeKit0A6ConfigC52getHideNotificationSettingsButtonWhenInformationNotiSbyF",
             "moduleName": "GroobeeKit",
             "isOpen": true,
             "declAttributes": [
@@ -15693,6 +16405,324 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "notificationSettingsButtonDeeplinkValue",
+                "printedName": "notificationSettingsButtonDeeplinkValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC39notificationSettingsButtonDeeplinkValueSSSgvp",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC39notificationSettingsButtonDeeplinkValueSSSgvp",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC39notificationSettingsButtonDeeplinkValueSSSgvg",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC39notificationSettingsButtonDeeplinkValueSSSgvg",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC39notificationSettingsButtonDeeplinkValueSSSgvs",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC39notificationSettingsButtonDeeplinkValueSSSgvs",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC39notificationSettingsButtonDeeplinkValueSSSgvM",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC39notificationSettingsButtonDeeplinkValueSSSgvM",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "notificationSettingsButtonTextValue",
+                "printedName": "notificationSettingsButtonTextValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC35notificationSettingsButtonTextValueSSSgvp",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC35notificationSettingsButtonTextValueSSSgvp",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC35notificationSettingsButtonTextValueSSSgvg",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC35notificationSettingsButtonTextValueSSSgvg",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC35notificationSettingsButtonTextValueSSSgvs",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC35notificationSettingsButtonTextValueSSSgvs",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC35notificationSettingsButtonTextValueSSSgvM",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC35notificationSettingsButtonTextValueSSSgvM",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "hideNotificationSettingsButtonWhenInformationNotiValue",
+                "printedName": "hideNotificationSettingsButtonWhenInformationNotiValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC54hideNotificationSettingsButtonWhenInformationNotiValueSbvp",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC54hideNotificationSettingsButtonWhenInformationNotiValueSbvp",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC54hideNotificationSettingsButtonWhenInformationNotiValueSbvg",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC54hideNotificationSettingsButtonWhenInformationNotiValueSbvg",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC54hideNotificationSettingsButtonWhenInformationNotiValueSbvs",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC54hideNotificationSettingsButtonWhenInformationNotiValueSbvs",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC54hideNotificationSettingsButtonWhenInformationNotiValueSbvM",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC54hideNotificationSettingsButtonWhenInformationNotiValueSbvM",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -15811,6 +16841,105 @@
                 "moduleName": "GroobeeKit",
                 "isOpen": true,
                 "objc_name": "setInAppMsgMarginBottom:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setNotificationSettingsButton",
+                "printedName": "setNotificationSettingsButton(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroobeeConfigBuilder",
+                    "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC29setNotificationSettingsButtonyAESSF",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC29setNotificationSettingsButtonyAESSF",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "objc_name": "setNotificationSettingsButton:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setNotificationSettingsButton",
+                "printedName": "setNotificationSettingsButton(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroobeeConfigBuilder",
+                    "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC29setNotificationSettingsButtonyAESS_SStF",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC29setNotificationSettingsButtonyAESS_SStF",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "objc_name": "setNotificationSettingsButton:deeplink:",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setHideNotificationSettingsButtonWhenInformationNoti",
+                "printedName": "setHideNotificationSettingsButtonWhenInformationNoti(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroobeeConfigBuilder",
+                    "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC52setHideNotificationSettingsButtonWhenInformationNotiyAESbF",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC52setHideNotificationSettingsButtonWhenInformationNotiyAESbF",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "objc_name": "setHideNotificationSettingsButtonWhenInformationNoti:",
                 "declAttributes": [
                   "ObjC",
                   "AccessControl",
@@ -20087,6 +21216,121 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "goalCd",
+            "printedName": "goalCd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit8PushDataC6goalCdSSSgvp",
+            "mangledName": "$s10GroobeeKit8PushDataC6goalCdSSSgvp",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit8PushDataC6goalCdSSSgvg",
+                "mangledName": "$s10GroobeeKit8PushDataC6goalCdSSSgvg",
+                "moduleName": "GroobeeKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit8PushDataC6goalCdSSSgvs",
+                "mangledName": "$s10GroobeeKit8PushDataC6goalCdSSSgvs",
+                "moduleName": "GroobeeKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit8PushDataC6goalCdSSSgvM",
+                "mangledName": "$s10GroobeeKit8PushDataC6goalCdSSSgvM",
+                "moduleName": "GroobeeKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "getCampaignKey",
             "printedName": "getCampaignKey()",
@@ -20216,6 +21460,38 @@
           },
           {
             "kind": "Function",
+            "name": "getGoalCd",
+            "printedName": "getGoalCd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)PushData(im)getGoalCd",
+            "mangledName": "$s10GroobeeKit8PushDataC9getGoalCdSSSgyF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setCampaignKey",
             "printedName": "setCampaignKey(_:)",
             "children": [
@@ -20325,6 +21601,36 @@
             "declKind": "Func",
             "usr": "c:@M@GroobeeKit@objc(cs)PushData(im)setPushSendDtm:",
             "mangledName": "$s10GroobeeKit8PushDataC03setC7SendDtmyACSSF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGoalCd",
+            "printedName": "setGoalCd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PushData",
+                "printedName": "GroobeeKit.PushData",
+                "usr": "c:@M@GroobeeKit@objc(cs)PushData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)PushData(im)setGoalCd:",
+            "mangledName": "$s10GroobeeKit8PushDataC9setGoalCdyACSSF",
             "moduleName": "GroobeeKit",
             "isOpen": true,
             "declAttributes": [
@@ -34082,77 +35388,119 @@
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
       "kind": "StringLiteral",
-      "offset": 356,
+      "offset": 352,
+      "length": 8,
+      "value": "\"goalCd\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
       "length": 14,
       "value": "\"push_msg_cnt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
       "kind": "StringLiteral",
-      "offset": 419,
+      "offset": 470,
       "length": 11,
       "value": "\"deep_link\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
       "kind": "StringLiteral",
-      "offset": 478,
+      "offset": 529,
       "length": 10,
       "value": "\"url_link\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
       "kind": "StringLiteral",
-      "offset": 537,
+      "offset": 588,
       "length": 9,
       "value": "\"sendDtm\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
       "kind": "StringLiteral",
-      "offset": 589,
+      "offset": 640,
       "length": 9,
       "value": "\"service\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 694,
       "length": 9,
       "value": "\"GROOBEE\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
+      "length": 4,
+      "value": "\"AD\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 4,
+      "value": "\"IN\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 47,
+      "value": "\"io.groobee.push.category.notificationSettings\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 45,
+      "value": "\"io.groobee.push.action.notificationSettings\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/PushMessage\/ConstraintsPush.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 15,
+      "value": "\"알림 설정\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "BooleanLiteral",
-      "offset": 855,
+      "offset": 880,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "BooleanLiteral",
-      "offset": 936,
+      "offset": 961,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "StringLiteral",
-      "offset": 1605,
+      "offset": 1630,
       "length": 23,
       "value": "\"com.groobee.sdk.queue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "BooleanLiteral",
-      "offset": 1732,
+      "offset": 1757,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "IntegerLiteral",
-      "offset": 96932,
+      "offset": 104760,
       "length": 1,
       "value": "0"
     },
@@ -34194,147 +35542,175 @@
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 422,
+      "length": 19,
+      "value": "\"GROOBEE_APP_GROUP\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
       "length": 19,
       "value": "\"GroobeeServiceKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 554,
       "length": 13,
       "value": "\"AppBundleId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 623,
       "length": 23,
       "value": "\"MarginInAppMessageTop\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 705,
       "length": 26,
       "value": "\"MarginInAppMessageBottom\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 795,
+      "length": 36,
+      "value": "\"NotificationSettingsButtonDeeplink\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
+      "kind": "StringLiteral",
+      "offset": 890,
+      "length": 32,
+      "value": "\"NotificationSettingsButtonText\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
+      "kind": "StringLiteral",
+      "offset": 1003,
+      "length": 51,
+      "value": "\"HideNotificationSettingsButtonWhenInformationNoti\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
       "length": 10,
       "value": "\"CookieId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 766,
+      "offset": 1155,
       "length": 8,
       "value": "\"UserId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 814,
+      "offset": 1203,
       "length": 6,
       "value": "\"adId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 864,
+      "offset": 1253,
       "length": 10,
       "value": "\"MemberId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 923,
+      "offset": 1312,
       "length": 14,
       "value": "\"LastMemberId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 979,
+      "offset": 1368,
       "length": 8,
       "value": "\"isSync\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1422,
       "length": 12,
       "value": "\"memberData\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1092,
+      "offset": 1481,
       "length": 12,
       "value": "\"iosSendDtm\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1148,
+      "offset": 1537,
       "length": 10,
       "value": "\"syncTime\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1592,
       "length": 27,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1676,
       "length": 25,
       "value": "\"CampaignInfoPushMessage\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1372,
+      "offset": 1761,
       "length": 32,
       "value": "\"CampaignInfoCurrentPushMessage\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1459,
+      "offset": 1848,
       "length": 23,
       "value": "\"DirectOpenCampaignKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1529,
+      "offset": 1918,
       "length": 18,
       "value": "\"grb_recent_goods\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1590,
+      "offset": 1979,
       "length": 17,
       "value": "\"recentGoodsList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1645,
+      "offset": 2034,
       "length": 13,
       "value": "\"campaignKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 2085,
       "length": 13,
       "value": "\"algorithmCd\""
     },
@@ -34509,16 +35885,23 @@
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2200,
+      "offset": 3492,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2324,
+      "offset": 3616,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4051,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",

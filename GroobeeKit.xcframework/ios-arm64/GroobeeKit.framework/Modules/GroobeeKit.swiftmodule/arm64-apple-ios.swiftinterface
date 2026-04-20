@@ -123,6 +123,7 @@ extension GroobeeKit.GroobeeServiceManager {
   @objc public func getPushAgreed(memberId: Swift.String, responseAgreeds: any GroobeeKit.ResponseAgreeds)
   @objc public func setPushToken(pushToken: Swift.String)
   @objc public func userNotificationCenter(userInfo: [Swift.AnyHashable : Any])
+  @objc(userNotificationCenterWithResponse:) public func userNotificationCenter(response: UserNotifications.UNNotificationResponse) -> Swift.Bool
   @objc public func didReceiveRemoteNotification(userInfo: [Swift.AnyHashable : Any])
   @objc public func handleGroobeeRemoteMessage(userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
   @objc public func inDirectPushOpened()
@@ -295,11 +296,17 @@ public class PopUpView {
   @objc public func getBundleId() -> Swift.String
   @objc public func getInAppMsgMarginTop() -> CoreFoundation.CGFloat
   @objc public func getInAppMsgMarginBottom() -> CoreFoundation.CGFloat
+  @objc public func getNotificationSettingsButtonDeeplink() -> Swift.String
+  @objc public func getNotificationSettingsButtonText() -> Swift.String
+  @objc public func getHideNotificationSettingsButtonWhenInformationNoti() -> Swift.Bool
   @_inheritsConvenienceInitializers @objc public class GroobeeConfigBuilder : ObjectiveC.NSObject {
     @objc override dynamic public init()
     @objc public func setServiceKey(serviceKey: Swift.String, bundleId: Swift.String) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc public func setInAppMsgMarginTop(_ topMarginValue: CoreFoundation.CGFloat) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc public func setInAppMsgMarginBottom(_ bottomMarginValue: CoreFoundation.CGFloat) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
+    @objc public func setNotificationSettingsButton(_ deeplink: Swift.String) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
+    @objc(setNotificationSettingsButton:deeplink:) public func setNotificationSettingsButton(_ text: Swift.String, _ deeplink: Swift.String) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
+    @objc public func setHideNotificationSettingsButtonWhenInformationNoti(_ hide: Swift.Bool) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc public func build() -> GroobeeKit.GroobeeConfig
     @objc deinit
   }
@@ -386,14 +393,17 @@ public class StyleConstraints {
   public var pushMsgType: Swift.String?
   public var pushMsgCnt: Swift.String?
   public var pushSendDtm: Swift.String?
+  public var goalCd: Swift.String?
   @objc public func getCampaignKey() -> Swift.String?
   @objc public func getPushMsgType() -> Swift.String?
   @objc public func getPushMsgCnt() -> Swift.String?
   @objc public func getPushSendDtm() -> Swift.String?
+  @objc public func getGoalCd() -> Swift.String?
   @objc public func setCampaignKey(_ campaignKey: Swift.String) -> GroobeeKit.PushData
   @objc public func setPushMsgType(_ pushMsgType: Swift.String) -> GroobeeKit.PushData
   @objc public func setPushMsgCnt(_ pushMsgCnt: Swift.String) -> GroobeeKit.PushData
   @objc public func setPushSendDtm(_ pushSendDtm: Swift.String) -> GroobeeKit.PushData
+  @objc public func setGoalCd(_ goalCd: Swift.String) -> GroobeeKit.PushData
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
