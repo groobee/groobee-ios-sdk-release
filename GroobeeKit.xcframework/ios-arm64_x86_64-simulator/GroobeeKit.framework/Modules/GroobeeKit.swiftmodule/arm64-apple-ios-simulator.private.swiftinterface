@@ -179,7 +179,7 @@ public class GroobeeServiceManager : ObjectiveC.NSObject, Foundation.URLSessionD
   public static func sendAuthRequest(_ url: Swift.String, _ request: Swift.String) -> Swift.Bool
   public static func sendSyncPushRequest(_ url: Swift.String, _ request: Swift.String) -> Swift.String
   public static func sendAsyncPushRequest(_ url: Swift.String, _ request: Swift.String, _ responseAgreeds: any GroobeeKit.ResponseAgreeds)
-  public static func sendRequest(_ url: Swift.String, _ request: Swift.String, screenId: Swift.String? = nil)
+  public static func sendRequest(_ url: Swift.String, _ request: Swift.String, screenId: Swift.String? = nil, waitForResponse: Swift.Bool = false)
   public static func sendRequestTimeout(_ url: Swift.String, _ request: Swift.String, _ timeout: Swift.Double) -> GroobeeKit.ArtificialRecommend
   public static func sendGoodsRequest(_ url: Swift.String, _ request: Swift.String, _ recommendGoods: any GroobeeKit.ResponseGoods, _ campaignKey: Swift.String)
   @objc override dynamic public init()

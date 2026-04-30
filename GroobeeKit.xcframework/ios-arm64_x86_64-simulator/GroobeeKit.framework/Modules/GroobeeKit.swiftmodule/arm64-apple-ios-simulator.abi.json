@@ -9086,7 +9086,7 @@
           {
             "kind": "Function",
             "name": "sendRequest",
-            "printedName": "sendRequest(_:_:screenId:)",
+            "printedName": "sendRequest(_:_:screenId:waitForResponse:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9119,11 +9119,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10GroobeeKit0A14ServiceManagerC11sendRequest__8screenIdySS_S2SSgtFZ",
-            "mangledName": "$s10GroobeeKit0A14ServiceManagerC11sendRequest__8screenIdySS_S2SSgtFZ",
+            "usr": "s:10GroobeeKit0A14ServiceManagerC11sendRequest__8screenId15waitForResponseySS_S2SSgSbtFZ",
+            "mangledName": "$s10GroobeeKit0A14ServiceManagerC11sendRequest__8screenId15waitForResponseySS_S2SSgSbtFZ",
             "moduleName": "GroobeeKit",
             "static": true,
             "declAttributes": [
@@ -35499,8 +35506,15 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6207,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "IntegerLiteral",
-      "offset": 104760,
+      "offset": 104871,
       "length": 1,
       "value": "0"
     },
@@ -35538,6 +35552,13 @@
       "offset": 587,
       "length": 17,
       "value": "\"SELF MATCHES %@\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/GroobeeServiceManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11082,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/Constraints.swift",
