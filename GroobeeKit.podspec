@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GroobeeKit'
-  s.version          = '1.1.6'
+  s.version          = '1.1.7'
   s.summary          = 'GroobeeKit Framework Library'
   s.description      = 'GroobeeKit Extended Framework For Hybrid Application of Swift'
 
