@@ -5479,7 +5479,7 @@
           {
             "kind": "Function",
             "name": "open",
-            "printedName": "open(url:)",
+            "printedName": "open(url:forwardUniversalLinks:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5491,17 +5491,24 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10GroobeeKit8UrlUtilsC4open3urlySS_tFZ",
-            "mangledName": "$s10GroobeeKit8UrlUtilsC4open3urlySS_tFZ",
+            "usr": "s:10GroobeeKit8UrlUtilsC4open3url21forwardUniversalLinksySS_SbtFZ",
+            "mangledName": "$s10GroobeeKit8UrlUtilsC4open3url21forwardUniversalLinksySS_SbtFZ",
             "moduleName": "GroobeeKit",
             "static": true,
             "declAttributes": [
+              "Final",
               "Preconcurrency",
               "Custom",
-              "Final",
               "AccessControl",
               "RawDocComment"
             ],
@@ -35477,6 +35484,13 @@
       "value": "\"알림 설정\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/UrlUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 554,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "BooleanLiteral",
       "offset": 880,
@@ -35514,7 +35528,7 @@
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "IntegerLiteral",
-      "offset": 105262,
+      "offset": 105291,
       "length": 1,
       "value": "0"
     },

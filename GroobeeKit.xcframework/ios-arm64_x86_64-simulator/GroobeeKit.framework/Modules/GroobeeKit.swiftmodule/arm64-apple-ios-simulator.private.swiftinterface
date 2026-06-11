@@ -99,7 +99,7 @@ extension GroobeeKit.GroobeeServiceManager {
   public static func responseInAppMessage(screenId: Swift.String?, response: [Swift.String : Any])
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class UrlUtils : UIKit.UIApplication {
-  @_Concurrency.MainActor @preconcurrency public static func open(url: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public static func open(url: Swift.String, forwardUniversalLinks: Swift.Bool = false)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
   @objc deinit
 }
