@@ -73,6 +73,60 @@
           },
           {
             "kind": "Function",
+            "name": "show",
+            "printedName": "show(inAppMessage:onDisplayed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessageModel",
+                "printedName": "GroobeeKit.InAppMessageModel",
+                "usr": "s:10GroobeeKit17InAppMessageModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit16StickyButtonViewC4show12inAppMessage11onDisplayedyAA02InhI5ModelV_ySbcSgtF",
+            "mangledName": "$s10GroobeeKit16StickyButtonViewC4show12inAppMessage11onDisplayedyAA02InhI5ModelV_ySbcSgtF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "dismiss",
             "printedName": "dismiss()",
             "children": [
@@ -2638,6 +2692,60 @@
             "declKind": "Func",
             "usr": "s:10GroobeeKit16StickyBannerViewC4show12inAppMessageyAA02InhI5ModelV_tF",
             "mangledName": "$s10GroobeeKit16StickyBannerViewC4show12inAppMessageyAA02InhI5ModelV_tF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(inAppMessage:onDisplayed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessageModel",
+                "printedName": "GroobeeKit.InAppMessageModel",
+                "usr": "s:10GroobeeKit17InAppMessageModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit16StickyBannerViewC4show12inAppMessage11onDisplayedyAA02InhI5ModelV_ySbcSgtF",
+            "mangledName": "$s10GroobeeKit16StickyBannerViewC4show12inAppMessage11onDisplayedyAA02InhI5ModelV_ySbcSgtF",
             "moduleName": "GroobeeKit",
             "isOpen": true,
             "declAttributes": [
@@ -15289,6 +15397,60 @@
           },
           {
             "kind": "Function",
+            "name": "show",
+            "printedName": "show(inAppMessage:onDisplayed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessageModel",
+                "printedName": "GroobeeKit.InAppMessageModel",
+                "usr": "s:10GroobeeKit17InAppMessageModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit9PopUpViewC4show12inAppMessage11onDisplayedyAA02InhI5ModelV_ySbcSgtF",
+            "mangledName": "$s10GroobeeKit9PopUpViewC4show12inAppMessage11onDisplayedyAA02InhI5ModelV_ySbcSgtF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "dismiss",
             "printedName": "dismiss()",
             "children": [
@@ -18509,6 +18671,74 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "defaultCloseIcon",
+            "printedName": "defaultCloseIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit16StyleConstraintsC16defaultCloseIconSo7UIImageCSgvpZ",
+            "mangledName": "$s10GroobeeKit16StyleConstraintsC16defaultCloseIconSo7UIImageCSgvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC16defaultCloseIconSo7UIImageCSgvgZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC16defaultCloseIconSo7UIImageCSgvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -31765,6 +31995,62 @@
           },
           {
             "kind": "Function",
+            "name": "show",
+            "printedName": "show(inAppMessage:onDisplayed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessageModel",
+                "printedName": "GroobeeKit.InAppMessageModel",
+                "usr": "s:10GroobeeKit17InAppMessageModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit12InAppMessageP4show02indE011onDisplayedyAA0cdE5ModelV_ySbcSgtF",
+            "mangledName": "$s10GroobeeKit12InAppMessageP4show02indE011onDisplayedyAA0cdE5ModelV_ySbcSgtF",
+            "moduleName": "GroobeeKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroobeeKit.InAppMessage>",
+            "sugared_genericSig": "<Self where Self : GroobeeKit.InAppMessage>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isShowing",
             "printedName": "isShowing()",
             "children": [
@@ -34521,7 +34807,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(url:)",
+            "printedName": "load(url:fallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -34533,11 +34819,26 @@
                 "name": "URL",
                 "printedName": "Foundation.URL",
                 "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:So8UIButtonC10GroobeeKitE4load3urly10Foundation3URLV_tF",
-            "mangledName": "$sSo8UIButtonC10GroobeeKitE4load3urly10Foundation3URLV_tF",
+            "usr": "s:So8UIButtonC10GroobeeKitE4load3url8fallbacky10Foundation3URLV_So7UIImageCSgtF",
+            "mangledName": "$sSo8UIButtonC10GroobeeKitE4load3url8fallbacky10Foundation3URLV_So7UIImageCSgtF",
             "moduleName": "GroobeeKit",
             "isOpen": true,
             "declAttributes": [
@@ -36079,6 +36380,27 @@
       "value": "80"
     },
     {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
+      "kind": "StringLiteral",
+      "offset": 6487,
+      "length": 33,
+      "value": "\"defaultCloseIcon decode failed.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
+      "kind": "StringLiteral",
+      "offset": 6538,
+      "length": 82,
+      "value": "\"defaultCloseIcon decode failed. 기본 닫기 아이콘을 사용할 수 없다.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
+      "kind": "StringLiteral",
+      "offset": 6745,
+      "length": 1247,
+      "value": "\"iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAylJREFUaEPtmb2O2kAQx2fXdBS5PEG4\nHinHExyhRLJDWpok0vVcTXUVtKFHStLQxvFKlIR7ghBBH\/IGXEFn2GgsW7IcvDvrD3KycIOEZ3fnt\/+ZnfUug4o8rCIccAF5bkpe\nFKm0Ir1er3E8Hm+llD0AuGKMXQHATQi9klLuAGDHGHM554+u626LmpBCQstxnPcAcB9zmurfCgA+eZ73ldogzS4XSAjwAACNnI6g\nMg95gDKBhCH0LYMCOt4V5\/xdlpAzBul2uze1Wu0H5oDOq4zvd77vv5nP5xh25McIxLbtD4yxz+TecxhKKT8KIb5QuyCDhEr8pHZc\nhJ3v+y2qMiSQMCcQoqxwSuPecc5blJwhgTiOgxBRPShisk36WHme19I10IKcMy\/SnKXkixbEcZzfBdQJ3YTq3m89z7tWGSlBqGoM\nh0NoNpswnU5hsVjonAredzoduLu7g\/V6DePxWNtGp4oShJobs9kM6vV64MxkMtHCIMRgMAjs9\/s99Pt9LQgAKHMlFSRcqTCstE\/c\nMR2MiW1yYM75ddoKlgpCDatoMIqDFBvVrKnCSwXiMsbeauWIGagczQuBw0gpvwsh8BPhn0cFsmSM3ZqAREkcxX8UZvib\/I+6KMTH\nl1I+CiHaRiDURD\/VaXL24zaUxUAxeakJn6qI4zjSVI24\/SmYnBBB957nnfS5+iC2ba8YY6+zqFJWaEkpfwkhTu75qp\/stm1XZvk1\n+hqk1AmKTeEF8ZluUV66rotnY\/SCiJbUhD\/HplGV6Ojrf9\/GbzYbGI1G2sUx1zY+VGXLGHulHalEAynlHyGE8hBQ+4Vougsug0en\nhja0IqeouVISRGoRjI+nVQSNwxUMT\/5elOGsos8nznkjbaUyBsEGlTigi4WYUZHMox4lLzIpEjUKlVmWGGZPvu+3qUelkV+kHEnO\nLObM4XDAvVim3XGaUlj0LMtqU3Ii2UcmkHio4QVN3jqDdQL7MTl9LxQkAXRvqhAqgFdveQByhVZaaIQhh4cDwWVoeCEahF\/odHAZ\nCgCuZVlLyik7dcHIFVrUQc5hdwE5xyybjHFRxGS2zmFbGUX+AkP\/1kK9ZQaoAAAAAElFTkSuQmCC\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Common\/ModelBuilder.swift",
       "kind": "StringLiteral",
       "offset": 158,
@@ -36095,7 +36417,7 @@
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 4081,
+      "offset": 4809,
       "length": 3,
       "value": "1.0"
     },

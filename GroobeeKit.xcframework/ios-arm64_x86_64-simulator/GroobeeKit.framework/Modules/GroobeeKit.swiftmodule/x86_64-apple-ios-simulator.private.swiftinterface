@@ -19,6 +19,7 @@ import _SwiftConcurrencyShims
 public class StickyButtonView {
   public static func getInstance() -> GroobeeKit.StickyButtonView
   public func show(inAppMessage: GroobeeKit.InAppMessageModel)
+  public func show(inAppMessage: GroobeeKit.InAppMessageModel, onDisplayed: ((Swift.Bool) -> Swift.Void)?)
   public func dismiss()
   public func isShowing() -> Swift.Bool
   @objc deinit
@@ -71,6 +72,7 @@ public class StickyButtonView {
 public class StickyBannerView {
   public static func getInstance() -> GroobeeKit.StickyBannerView
   public func show(inAppMessage: GroobeeKit.InAppMessageModel)
+  public func show(inAppMessage: GroobeeKit.InAppMessageModel, onDisplayed: ((Swift.Bool) -> Swift.Void)?)
   public func dismiss()
   public func isShowing() -> Swift.Bool
   @objc deinit
@@ -282,6 +284,7 @@ public class PopUpView {
   final public let dimView: UIKit.UIView
   public static func getInstance() -> GroobeeKit.PopUpView
   public func show(inAppMessage: GroobeeKit.InAppMessageModel)
+  public func show(inAppMessage: GroobeeKit.InAppMessageModel, onDisplayed: ((Swift.Bool) -> Swift.Void)?)
   public func dismiss()
   public func isShowing() -> Swift.Bool
   @objc deinit
