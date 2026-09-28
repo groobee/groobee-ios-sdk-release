@@ -296,6 +296,10 @@ public class PopUpView {
   @objc func onFailed(exceptionMsg: Swift.String)
 }
 @objc public class GroobeeConfig : ObjectiveC.NSObject {
+  @objc public static let MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT: CoreFoundation.CGFloat
+  @objc public static let MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT: CoreFoundation.CGFloat
+  @objc public static let DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT: CoreFoundation.CGFloat
+  @objc public static let DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE: CoreFoundation.CGFloat
   @objc public init(builder: GroobeeKit.GroobeeConfig.GroobeeConfigBuilder)
   @objc public func getServiceKey() -> Swift.String
   @objc public func getBundleId() -> Swift.String
@@ -304,6 +308,8 @@ public class PopUpView {
   @objc public func getNotificationSettingsButtonDeeplink() -> Swift.String
   @objc public func getNotificationSettingsButtonText() -> Swift.String
   @objc public func getHideNotificationSettingsButtonWhenInformationNoti() -> Swift.Bool
+  @objc public func getInAppMsgMaxHeightRatioPortrait() -> CoreFoundation.CGFloat
+  @objc public func getInAppMsgMaxHeightRatioLandscape() -> CoreFoundation.CGFloat
   @_inheritsConvenienceInitializers @objc public class GroobeeConfigBuilder : ObjectiveC.NSObject {
     @objc override dynamic public init()
     @objc public func setServiceKey(serviceKey: Swift.String, bundleId: Swift.String) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
@@ -312,6 +318,8 @@ public class PopUpView {
     @objc public func setNotificationSettingsButton(_ deeplink: Swift.String) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc(setNotificationSettingsButton:deeplink:) public func setNotificationSettingsButton(_ text: Swift.String, _ deeplink: Swift.String) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc public func setHideNotificationSettingsButtonWhenInformationNoti(_ hide: Swift.Bool) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
+    @objc public func setInAppMsgMaxHeightRatioPortrait(_ ratio: CoreFoundation.CGFloat) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
+    @objc public func setInAppMsgMaxHeightRatioLandscape(_ ratio: CoreFoundation.CGFloat) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc public func build() -> GroobeeKit.GroobeeConfig
     @objc deinit
   }
@@ -333,6 +341,10 @@ public class StyleConstraints {
   public static let ALPHA_DIM_VIEW: CoreFoundation.CGFloat
   public static let IMAGE_VIEW_MARGIN: CoreFoundation.CGFloat
   public static let POP_UP: Swift.String
+  public static let CLOSE_BUTTON_SIZE_RATIO: CoreFoundation.CGFloat
+  public static let CLOSE_BUTTON_MIN_SIZE: CoreFoundation.CGFloat
+  public static let CLOSE_BUTTON_MAX_SIZE: CoreFoundation.CGFloat
+  public static let CLOSE_BUTTON_MIN_TAP_SIZE: CoreFoundation.CGFloat
   public static let STICKY_DEFAULT: Swift.String
   public static let OBJECTS_CORNER_RADIUS_TRUE: CoreFoundation.CGFloat
   public static let TXT_SIZE_STICKY_BUTTON_BODY: CoreFoundation.CGFloat

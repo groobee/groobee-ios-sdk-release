@@ -15434,6 +15434,77 @@
           },
           {
             "kind": "Function",
+            "name": "makeLayoutConstraints",
+            "printedName": "makeLayoutConstraints(in:heightPerWidth:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.NSLayoutConstraint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit9PopUpViewC21makeLayoutConstraints2in14heightPerWidthSaySo18NSLayoutConstraintCGSo6UIViewC_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$s10GroobeeKit9PopUpViewC21makeLayoutConstraints2in14heightPerWidthSaySo18NSLayoutConstraintCGSo6UIViewC_12CoreGraphics7CGFloatVtF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "attachSubviews",
+            "printedName": "attachSubviews(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit9PopUpViewC14attachSubviews2toySo6UIViewC_tF",
+            "mangledName": "$s10GroobeeKit9PopUpViewC14attachSubviews2toySo6UIViewC_tF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "show",
             "printedName": "show(inAppMessage:)",
             "children": [
@@ -15611,6 +15682,644 @@
             "printedName": "InAppMessage",
             "usr": "s:10GroobeeKit12InAppMessageP",
             "mangledName": "$s10GroobeeKit12InAppMessageP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CloseButton",
+        "printedName": "CloseButton",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "point",
+            "printedName": "point(inside:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)CloseButton(im)pointInside:withEvent:",
+            "mangledName": "$s10GroobeeKit11CloseButtonC5point6inside4withSbSo7CGPointV_So7UIEventCSgtF",
+            "moduleName": "GroobeeKit",
+            "overriding": true,
+            "objc_name": "pointInside:withEvent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)CloseButton(im)layoutSubviews",
+            "mangledName": "$s10GroobeeKit11CloseButtonC14layoutSubviewsyyF",
+            "moduleName": "GroobeeKit",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CloseButton",
+                "printedName": "GroobeeKit.CloseButton",
+                "usr": "c:@M@GroobeeKit@objc(cs)CloseButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroobeeKit@objc(cs)CloseButton(im)initWithFrame:",
+            "mangledName": "$s10GroobeeKit11CloseButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "GroobeeKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroobeeKit.CloseButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CloseButton",
+                    "printedName": "GroobeeKit.CloseButton",
+                    "usr": "c:@M@GroobeeKit@objc(cs)CloseButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroobeeKit@objc(cs)CloseButton(im)initWithCoder:",
+            "mangledName": "$s10GroobeeKit11CloseButtonC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "GroobeeKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GroobeeKit@objc(cs)CloseButton",
+        "mangledName": "$s10GroobeeKit11CloseButtonC",
+        "moduleName": "GroobeeKit",
+        "intro_iOS": "10.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "Available",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PopUpDimView",
+        "printedName": "PopUpDimView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onLayout",
+            "printedName": "onLayout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit12PopUpDimViewC8onLayoutyycSgvp",
+            "mangledName": "$s10GroobeeKit12PopUpDimViewC8onLayoutyycSgvp",
+            "moduleName": "GroobeeKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit12PopUpDimViewC8onLayoutyycSgvg",
+                "mangledName": "$s10GroobeeKit12PopUpDimViewC8onLayoutyycSgvg",
+                "moduleName": "GroobeeKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit12PopUpDimViewC8onLayoutyycSgvs",
+                "mangledName": "$s10GroobeeKit12PopUpDimViewC8onLayoutyycSgvs",
+                "moduleName": "GroobeeKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit12PopUpDimViewC8onLayoutyycSgvM",
+                "mangledName": "$s10GroobeeKit12PopUpDimViewC8onLayoutyycSgvM",
+                "moduleName": "GroobeeKit",
+                "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Final",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)PopUpDimView(im)layoutSubviews",
+            "mangledName": "$s10GroobeeKit12PopUpDimViewC14layoutSubviewsyyF",
+            "moduleName": "GroobeeKit",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PopUpDimView",
+                "printedName": "GroobeeKit.PopUpDimView",
+                "usr": "c:@M@GroobeeKit@objc(cs)PopUpDimView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroobeeKit@objc(cs)PopUpDimView(im)initWithFrame:",
+            "mangledName": "$s10GroobeeKit12PopUpDimViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "GroobeeKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroobeeKit.PopUpDimView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PopUpDimView",
+                    "printedName": "GroobeeKit.PopUpDimView",
+                    "usr": "c:@M@GroobeeKit@objc(cs)PopUpDimView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GroobeeKit@objc(cs)PopUpDimView(im)initWithCoder:",
+            "mangledName": "$s10GroobeeKit12PopUpDimViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "GroobeeKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GroobeeKit@objc(cs)PopUpDimView",
+        "mangledName": "$s10GroobeeKit12PopUpDimViewC",
+        "moduleName": "GroobeeKit",
+        "intro_iOS": "10.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "Available",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -15949,6 +16658,70 @@
           },
           {
             "kind": "Function",
+            "name": "setInAppMsgMaxHeightRatioPortrait",
+            "printedName": "setInAppMsgMaxHeightRatioPortrait(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroobeeConfigBuilder",
+                "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(pl)Builder(im)setInAppMsgMaxHeightRatioPortrait:",
+            "mangledName": "$s10GroobeeKit7BuilderP33setInAppMsgMaxHeightRatioPortraityAA0A6ConfigC0alC0C12CoreGraphics7CGFloatVF",
+            "moduleName": "GroobeeKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroobeeKit.Builder>",
+            "sugared_genericSig": "<Self where Self : GroobeeKit.Builder>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInAppMsgMaxHeightRatioLandscape",
+            "printedName": "setInAppMsgMaxHeightRatioLandscape(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroobeeConfigBuilder",
+                "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(pl)Builder(im)setInAppMsgMaxHeightRatioLandscape:",
+            "mangledName": "$s10GroobeeKit7BuilderP34setInAppMsgMaxHeightRatioLandscapeyAA0A6ConfigC0alC0C12CoreGraphics7CGFloatVF",
+            "moduleName": "GroobeeKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroobeeKit.Builder>",
+            "sugared_genericSig": "<Self where Self : GroobeeKit.Builder>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "build",
             "printedName": "build()",
             "children": [
@@ -16006,6 +16779,222 @@
         "name": "GroobeeConfig",
         "printedName": "GroobeeConfig",
         "children": [
+          {
+            "kind": "Var",
+            "name": "MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT",
+            "printedName": "MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(cpy)MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT",
+            "mangledName": "$s10GroobeeKit0A6ConfigC33MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(cm)MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT",
+                "mangledName": "$s10GroobeeKit0A6ConfigC33MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT",
+            "printedName": "MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(cpy)MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT",
+            "mangledName": "$s10GroobeeKit0A6ConfigC33MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(cm)MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT",
+                "mangledName": "$s10GroobeeKit0A6ConfigC33MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT",
+            "printedName": "DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(cpy)DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT",
+            "mangledName": "$s10GroobeeKit0A6ConfigC40DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(cm)DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT",
+                "mangledName": "$s10GroobeeKit0A6ConfigC40DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE",
+            "printedName": "DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(cpy)DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE",
+            "mangledName": "$s10GroobeeKit0A6ConfigC41DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(cm)DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE",
+                "mangledName": "$s10GroobeeKit0A6ConfigC41DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -16200,6 +17189,90 @@
             "declAttributes": [
               "AccessControl",
               "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInAppMsgMaxHeightRatioPortrait",
+            "printedName": "getInAppMsgMaxHeightRatioPortrait()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(im)getInAppMsgMaxHeightRatioPortrait",
+            "mangledName": "$s10GroobeeKit0A6ConfigC33getInAppMsgMaxHeightRatioPortrait12CoreGraphics7CGFloatVyF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInAppMsgMaxHeightRatioLandscape",
+            "printedName": "getInAppMsgMaxHeightRatioLandscape()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)GroobeeConfig(im)getInAppMsgMaxHeightRatioLandscape",
+            "mangledName": "$s10GroobeeKit0A6ConfigC34getInAppMsgMaxHeightRatioLandscape12CoreGraphics7CGFloatVyF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clampHeightRatio",
+            "printedName": "clampHeightRatio(_:defaultRatio:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit0A6ConfigC16clampHeightRatio_07defaultF014CoreFoundation7CGFloatVAH_AHtFZ",
+            "mangledName": "$s10GroobeeKit0A6ConfigC16clampHeightRatio_07defaultF012CoreGraphics7CGFloatVAH_AHtFZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -16964,6 +18037,185 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "inAppMsgMaxHeightRatioPortraitValue",
+                "printedName": "inAppMsgMaxHeightRatioPortraitValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC35inAppMsgMaxHeightRatioPortraitValue14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC35inAppMsgMaxHeightRatioPortraitValue12CoreGraphics7CGFloatVvp",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC35inAppMsgMaxHeightRatioPortraitValue14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC35inAppMsgMaxHeightRatioPortraitValue12CoreGraphics7CGFloatVvg",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC35inAppMsgMaxHeightRatioPortraitValue14CoreFoundation7CGFloatVvs",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC35inAppMsgMaxHeightRatioPortraitValue12CoreGraphics7CGFloatVvs",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC35inAppMsgMaxHeightRatioPortraitValue14CoreFoundation7CGFloatVvM",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC35inAppMsgMaxHeightRatioPortraitValue12CoreGraphics7CGFloatVvM",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "inAppMsgMaxHeightRatioLandscapeValue",
+                "printedName": "inAppMsgMaxHeightRatioLandscapeValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC36inAppMsgMaxHeightRatioLandscapeValue14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC36inAppMsgMaxHeightRatioLandscapeValue12CoreGraphics7CGFloatVvp",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC36inAppMsgMaxHeightRatioLandscapeValue14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC36inAppMsgMaxHeightRatioLandscapeValue12CoreGraphics7CGFloatVvg",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC36inAppMsgMaxHeightRatioLandscapeValue14CoreFoundation7CGFloatVvs",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC36inAppMsgMaxHeightRatioLandscapeValue12CoreGraphics7CGFloatVvs",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC36inAppMsgMaxHeightRatioLandscapeValue14CoreFoundation7CGFloatVvM",
+                    "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC36inAppMsgMaxHeightRatioLandscapeValue12CoreGraphics7CGFloatVvM",
+                    "moduleName": "GroobeeKit",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -17181,6 +18433,68 @@
                 "moduleName": "GroobeeKit",
                 "isOpen": true,
                 "objc_name": "setHideNotificationSettingsButtonWhenInformationNoti:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setInAppMsgMaxHeightRatioPortrait",
+                "printedName": "setInAppMsgMaxHeightRatioPortrait(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroobeeConfigBuilder",
+                    "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC33setInAppMsgMaxHeightRatioPortraityAE14CoreFoundation7CGFloatVF",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC33setInAppMsgMaxHeightRatioPortraityAE12CoreGraphics7CGFloatVF",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "objc_name": "setInAppMsgMaxHeightRatioPortrait:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setInAppMsgMaxHeightRatioLandscape",
+                "printedName": "setInAppMsgMaxHeightRatioLandscape(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GroobeeConfigBuilder",
+                    "printedName": "GroobeeKit.GroobeeConfig.GroobeeConfigBuilder",
+                    "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10GroobeeKit0A6ConfigC0aC7BuilderC34setInAppMsgMaxHeightRatioLandscapeyAE14CoreFoundation7CGFloatVF",
+                "mangledName": "$s10GroobeeKit0A6ConfigC0aC7BuilderC34setInAppMsgMaxHeightRatioLandscapeyAE12CoreGraphics7CGFloatVF",
+                "moduleName": "GroobeeKit",
+                "isOpen": true,
+                "objc_name": "setInAppMsgMaxHeightRatioLandscape:",
                 "declAttributes": [
                   "ObjC",
                   "AccessControl",
@@ -18136,6 +19450,425 @@
                   "Final"
                 ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CLOSE_BUTTON_SIZE_RATIO",
+            "printedName": "CLOSE_BUTTON_SIZE_RATIO",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit16StyleConstraintsC23CLOSE_BUTTON_SIZE_RATIO14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s10GroobeeKit16StyleConstraintsC23CLOSE_BUTTON_SIZE_RATIO12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC23CLOSE_BUTTON_SIZE_RATIO14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC23CLOSE_BUTTON_SIZE_RATIO12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CLOSE_BUTTON_MIN_SIZE",
+            "printedName": "CLOSE_BUTTON_MIN_SIZE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit16StyleConstraintsC21CLOSE_BUTTON_MIN_SIZE14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s10GroobeeKit16StyleConstraintsC21CLOSE_BUTTON_MIN_SIZE12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC21CLOSE_BUTTON_MIN_SIZE14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC21CLOSE_BUTTON_MIN_SIZE12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CLOSE_BUTTON_MAX_SIZE",
+            "printedName": "CLOSE_BUTTON_MAX_SIZE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit16StyleConstraintsC21CLOSE_BUTTON_MAX_SIZE14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s10GroobeeKit16StyleConstraintsC21CLOSE_BUTTON_MAX_SIZE12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC21CLOSE_BUTTON_MAX_SIZE14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC21CLOSE_BUTTON_MAX_SIZE12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CLOSE_BUTTON_MIN_TAP_SIZE",
+            "printedName": "CLOSE_BUTTON_MIN_TAP_SIZE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit16StyleConstraintsC25CLOSE_BUTTON_MIN_TAP_SIZE14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s10GroobeeKit16StyleConstraintsC25CLOSE_BUTTON_MIN_TAP_SIZE12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC25CLOSE_BUTTON_MIN_TAP_SIZE14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC25CLOSE_BUTTON_MIN_TAP_SIZE12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "popupMaxHeightRatioPortrait",
+            "printedName": "popupMaxHeightRatioPortrait",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit16StyleConstraintsC27popupMaxHeightRatioPortrait14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s10GroobeeKit16StyleConstraintsC27popupMaxHeightRatioPortrait12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC27popupMaxHeightRatioPortrait14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC27popupMaxHeightRatioPortrait12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC27popupMaxHeightRatioPortrait14CoreFoundation7CGFloatVvsZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC27popupMaxHeightRatioPortrait12CoreGraphics7CGFloatVvsZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC27popupMaxHeightRatioPortrait14CoreFoundation7CGFloatVvMZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC27popupMaxHeightRatioPortrait12CoreGraphics7CGFloatVvMZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Transparent",
+                  "Final",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "popupMaxHeightRatioLandscape",
+            "printedName": "popupMaxHeightRatioLandscape",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10GroobeeKit16StyleConstraintsC28popupMaxHeightRatioLandscape14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s10GroobeeKit16StyleConstraintsC28popupMaxHeightRatioLandscape12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC28popupMaxHeightRatioLandscape14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC28popupMaxHeightRatioLandscape12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC28popupMaxHeightRatioLandscape14CoreFoundation7CGFloatVvsZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC28popupMaxHeightRatioLandscape12CoreGraphics7CGFloatVvsZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10GroobeeKit16StyleConstraintsC28popupMaxHeightRatioLandscape14CoreFoundation7CGFloatVvMZ",
+                "mangledName": "$s10GroobeeKit16StyleConstraintsC28popupMaxHeightRatioLandscape12CoreGraphics7CGFloatVvMZ",
+                "moduleName": "GroobeeKit",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "10.0",
+                "declAttributes": [
+                  "Transparent",
+                  "Final",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -36508,7 +38241,7 @@
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "IntegerLiteral",
-      "offset": 106359,
+      "offset": 106823,
       "length": 1,
       "value": "0"
     },
@@ -36857,64 +38590,106 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/PopUpView.swift",
+      "kind": "Array",
+      "offset": 605,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/PopUpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 694,
+      "offset": 1165,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/PopUpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1297,
+      "offset": 1922,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/PopUpView.swift",
       "kind": "StringLiteral",
-      "offset": 1577,
+      "offset": 2377,
       "length": 22,
       "value": "\"SpoqaHanSans-Regular\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/PopUpView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1607,
+      "offset": 2407,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/PopUpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1669,
+      "offset": 2469,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/PopUpView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1716,
+      "offset": 2516,
       "length": 4,
       "value": "true"
     },
     {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/PopUpView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3580,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 2409,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 3125,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 3361,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 3575,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3492,
+      "offset": 7754,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3616,
+      "offset": 7878,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Model\/Global\/GroobeeConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 4051,
+      "offset": 8313,
       "length": 5,
       "value": "false"
     },
@@ -37018,64 +38793,92 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
+      "kind": "FloatLiteral",
+      "offset": 1757,
+      "length": 5,
+      "value": "0.075"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1908,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2081,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2250,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "StringLiteral",
-      "offset": 1126,
+      "offset": 2905,
       "length": 16,
       "value": "\"STICKY_DEFAULT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 1232,
+      "offset": 3011,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 1295,
+      "offset": 3074,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "StringLiteral",
-      "offset": 1344,
+      "offset": 3123,
       "length": 15,
       "value": "\"STICKY_BUTTON\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 1423,
+      "offset": 3202,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "IntegerLiteral",
-      "offset": 1470,
+      "offset": 3249,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "StringLiteral",
-      "offset": 6487,
+      "offset": 8266,
       "length": 33,
       "value": "\"defaultCloseIcon decode failed.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "StringLiteral",
-      "offset": 6538,
+      "offset": 8317,
       "length": 82,
       "value": "\"defaultCloseIcon decode failed. 기본 닫기 아이콘을 사용할 수 없다.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/InAppMessage\/StyleConstraints.swift",
       "kind": "StringLiteral",
-      "offset": 6745,
+      "offset": 8524,
       "length": 1247,
       "value": "\"iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAylJREFUaEPtmb2O2kAQx2fXdBS5PEG4\nHinHExyhRLJDWpok0vVcTXUVtKFHStLQxvFKlIR7ghBBH\/IGXEFn2GgsW7IcvDvrD3KycIOEZ3fnt\/+ZnfUug4o8rCIccAF5bkpe\nFKm0Ir1er3E8Hm+llD0AuGKMXQHATQi9klLuAGDHGHM554+u626LmpBCQstxnPcAcB9zmurfCgA+eZ73ldogzS4XSAjwAACNnI6g\nMg95gDKBhCH0LYMCOt4V5\/xdlpAzBul2uze1Wu0H5oDOq4zvd77vv5nP5xh25McIxLbtD4yxz+TecxhKKT8KIb5QuyCDhEr8pHZc\nhJ3v+y2qMiSQMCcQoqxwSuPecc5blJwhgTiOgxBRPShisk36WHme19I10IKcMy\/SnKXkixbEcZzfBdQJ3YTq3m89z7tWGSlBqGoM\nh0NoNpswnU5hsVjonAredzoduLu7g\/V6DePxWNtGp4oShJobs9kM6vV64MxkMtHCIMRgMAjs9\/s99Pt9LQgAKHMlFSRcqTCstE\/c\nMR2MiW1yYM75ddoKlgpCDatoMIqDFBvVrKnCSwXiMsbeauWIGagczQuBw0gpvwsh8BPhn0cFsmSM3ZqAREkcxX8UZvib\/I+6KMTH\nl1I+CiHaRiDURD\/VaXL24zaUxUAxeakJn6qI4zjSVI24\/SmYnBBB957nnfS5+iC2ba8YY6+zqFJWaEkpfwkhTu75qp\/stm1XZvk1\n+hqk1AmKTeEF8ZluUV66rotnY\/SCiJbUhD\/HplGV6Ojrf9\/GbzYbGI1G2sUx1zY+VGXLGHulHalEAynlHyGE8hBQ+4Vougsug0en\nhja0IqeouVISRGoRjI+nVQSNwxUMT\/5elOGsos8nznkjbaUyBsEGlTigi4WYUZHMox4lLzIpEjUKlVmWGGZPvu+3qUelkV+kHEnO\nLObM4XDAvVim3XGaUlj0LMtqU3Ii2UcmkHio4QVN3jqDdQL7MTl9LxQkAXRvqhAqgFdveQByhVZaaIQhh4cDwWVoeCEahF\/odHAZ\nCgCuZVlLyik7dcHIFVrUQc5hdwE5xyybjHFRxGS2zmFbGUX+AkP\/1kK9ZQaoAAAAAElFTkSuQmCC\""
     },

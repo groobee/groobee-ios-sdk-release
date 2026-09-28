@@ -411,6 +411,14 @@ SWIFT_CLASS("_TtC10GroobeeKit7Groobee") SWIFT_AVAILABILITY(ios,introduced=10.0)
 @class GroobeeConfigBuilder;
 SWIFT_CLASS("_TtC10GroobeeKit13GroobeeConfig")
 @interface GroobeeConfig : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT;)
++ (CGFloat)MAX_IN_APP_MSG_HEIGHT_RATIO_LIMIT SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT;)
++ (CGFloat)MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT;)
++ (CGFloat)DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) CGFloat DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE;)
++ (CGFloat)DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithBuilder:(GroobeeConfigBuilder * _Nonnull)builder OBJC_DESIGNATED_INITIALIZER;
 - (NSString * _Nonnull)getServiceKey SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getBundleId SWIFT_WARN_UNUSED_RESULT;
@@ -419,6 +427,8 @@ SWIFT_CLASS("_TtC10GroobeeKit13GroobeeConfig")
 - (NSString * _Nonnull)getNotificationSettingsButtonDeeplink SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getNotificationSettingsButtonText SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)getHideNotificationSettingsButtonWhenInformationNoti SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)getInAppMsgMaxHeightRatioPortrait SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)getInAppMsgMaxHeightRatioLandscape SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -432,6 +442,8 @@ SWIFT_CLASS("_TtCC10GroobeeKit13GroobeeConfig20GroobeeConfigBuilder")
 - (GroobeeConfigBuilder * _Nonnull)setNotificationSettingsButton:(NSString * _Nonnull)deeplink SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfigBuilder * _Nonnull)setNotificationSettingsButton:(NSString * _Nonnull)text deeplink:(NSString * _Nonnull)deeplink SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfigBuilder * _Nonnull)setHideNotificationSettingsButtonWhenInformationNoti:(BOOL)hide SWIFT_WARN_UNUSED_RESULT;
+- (GroobeeConfigBuilder * _Nonnull)setInAppMsgMaxHeightRatioPortrait:(CGFloat)ratio SWIFT_WARN_UNUSED_RESULT;
+- (GroobeeConfigBuilder * _Nonnull)setInAppMsgMaxHeightRatioLandscape:(CGFloat)ratio SWIFT_WARN_UNUSED_RESULT;
 - (GroobeeConfig * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
 @end
 
