@@ -300,6 +300,9 @@ public class PopUpView {
   @objc public static let MIN_IN_APP_MSG_HEIGHT_RATIO_LIMIT: CoreFoundation.CGFloat
   @objc public static let DEFAULT_IN_APP_MSG_HEIGHT_RATIO_PORTRAIT: CoreFoundation.CGFloat
   @objc public static let DEFAULT_IN_APP_MSG_HEIGHT_RATIO_LANDSCAPE: CoreFoundation.CGFloat
+  @objc public static let MIN_IN_APP_MSG_CLOSE_BUTTON_SCALE_LIMIT: CoreFoundation.CGFloat
+  @objc public static let MAX_IN_APP_MSG_CLOSE_BUTTON_SCALE_LIMIT: CoreFoundation.CGFloat
+  @objc public static let DEFAULT_IN_APP_MSG_CLOSE_BUTTON_SCALE: CoreFoundation.CGFloat
   @objc public init(builder: GroobeeKit.GroobeeConfig.GroobeeConfigBuilder)
   @objc public func getServiceKey() -> Swift.String
   @objc public func getBundleId() -> Swift.String
@@ -310,6 +313,7 @@ public class PopUpView {
   @objc public func getHideNotificationSettingsButtonWhenInformationNoti() -> Swift.Bool
   @objc public func getInAppMsgMaxHeightRatioPortrait() -> CoreFoundation.CGFloat
   @objc public func getInAppMsgMaxHeightRatioLandscape() -> CoreFoundation.CGFloat
+  @objc public func getInAppMsgCloseButtonScale() -> CoreFoundation.CGFloat
   @_inheritsConvenienceInitializers @objc public class GroobeeConfigBuilder : ObjectiveC.NSObject {
     @objc override dynamic public init()
     @objc public func setServiceKey(serviceKey: Swift.String, bundleId: Swift.String) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
@@ -320,6 +324,7 @@ public class PopUpView {
     @objc public func setHideNotificationSettingsButtonWhenInformationNoti(_ hide: Swift.Bool) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc public func setInAppMsgMaxHeightRatioPortrait(_ ratio: CoreFoundation.CGFloat) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc public func setInAppMsgMaxHeightRatioLandscape(_ ratio: CoreFoundation.CGFloat) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
+    @objc public func setInAppMsgCloseButtonScale(_ scale: CoreFoundation.CGFloat) -> GroobeeKit.GroobeeConfig.GroobeeConfigBuilder
     @objc public func build() -> GroobeeKit.GroobeeConfig
     @objc deinit
   }
