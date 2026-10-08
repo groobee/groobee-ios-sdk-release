@@ -6944,6 +6944,146 @@
           },
           {
             "kind": "Function",
+            "name": "setAddToCart",
+            "printedName": "setAddToCart(goods:screenId:clickButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GroobeeKit.Goods]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Goods",
+                    "printedName": "GroobeeKit.Goods",
+                    "usr": "c:@M@GroobeeKit@objc(cs)Goods"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)Groobee(im)setAddToCartWithGoods:screenId:clickButton:",
+            "mangledName": "$s10GroobeeKit0A0C12setAddToCart5goods8screenId11clickButtonySayAA5GoodsCG_SSyycSgtF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "objc_name": "setAddToCartWithGoods:screenId:clickButton:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDeleteFromCart",
+            "printedName": "setDeleteFromCart(goods:screenId:clickButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GroobeeKit.Goods]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Goods",
+                    "printedName": "GroobeeKit.Goods",
+                    "usr": "c:@M@GroobeeKit@objc(cs)Goods"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GroobeeKit@objc(cs)Groobee(im)setDeleteFromCartWithGoods:screenId:clickButton:",
+            "mangledName": "$s10GroobeeKit0A0C17setDeleteFromCart5goods8screenId11clickButtonySayAA5GoodsCG_SSyycSgtF",
+            "moduleName": "GroobeeKit",
+            "isOpen": true,
+            "objc_name": "setDeleteFromCartWithGoods:screenId:clickButton:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setGoodsOrder",
             "printedName": "setGoodsOrder(goods:screenId:clickButton:)",
             "children": [
@@ -27141,6 +27281,232 @@
           },
           {
             "kind": "Function",
+            "name": "sanitizeCartGoods",
+            "printedName": "sanitizeCartGoods(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GroobeeKit.Goods]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Goods",
+                    "printedName": "GroobeeKit.Goods",
+                    "usr": "c:@M@GroobeeKit@objc(cs)Goods"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GroobeeKit.Goods]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Goods",
+                    "printedName": "GroobeeKit.Goods",
+                    "usr": "c:@M@GroobeeKit@objc(cs)Goods"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit12ModelBuilderC17sanitizeCartGoodsySayAA0G0CGAGFZ",
+            "mangledName": "$s10GroobeeKit12ModelBuilderC17sanitizeCartGoodsySayAA0G0CGAGFZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceAddToCart",
+            "printedName": "serviceAddToCart(serviceKey:cookieId:userId:memberId:screenId:goods:memberData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestParams",
+                "printedName": "GroobeeKit.RequestParams",
+                "usr": "s:10GroobeeKit13RequestParamsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GroobeeKit.Goods]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Goods",
+                    "printedName": "GroobeeKit.Goods",
+                    "usr": "c:@M@GroobeeKit@objc(cs)Goods"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroobeeKit.MemberData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MemberData",
+                    "printedName": "GroobeeKit.MemberData",
+                    "usr": "s:10GroobeeKit10MemberDataC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit12ModelBuilderC16serviceAddToCart0E3Key8cookieId04userK006memberK006screenK05goods0M4DataAA13RequestParamsCSS_S3SSgSSSayAA5GoodsCGAA06MemberP0CSgtFZ",
+            "mangledName": "$s10GroobeeKit12ModelBuilderC16serviceAddToCart0E3Key8cookieId04userK006memberK006screenK05goods0M4DataAA13RequestParamsCSS_S3SSgSSSayAA5GoodsCGAA06MemberP0CSgtFZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceDeleteFromCart",
+            "printedName": "serviceDeleteFromCart(serviceKey:cookieId:userId:memberId:screenId:goods:memberData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RequestParams",
+                "printedName": "GroobeeKit.RequestParams",
+                "usr": "s:10GroobeeKit13RequestParamsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GroobeeKit.Goods]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Goods",
+                    "printedName": "GroobeeKit.Goods",
+                    "usr": "c:@M@GroobeeKit@objc(cs)Goods"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GroobeeKit.MemberData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MemberData",
+                    "printedName": "GroobeeKit.MemberData",
+                    "usr": "s:10GroobeeKit10MemberDataC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10GroobeeKit12ModelBuilderC21serviceDeleteFromCart0E3Key8cookieId04userK006memberK006screenK05goods0M4DataAA13RequestParamsCSS_S3SSgSSSayAA5GoodsCGAA06MemberP0CSgtFZ",
+            "mangledName": "$s10GroobeeKit12ModelBuilderC21serviceDeleteFromCart0E3Key8cookieId04userK006memberK006screenK05goods0M4DataAA13RequestParamsCSS_S3SSgSSSayAA5GoodsCGAA06MemberP0CSgtFZ",
+            "moduleName": "GroobeeKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "serviceGoodsOrder",
             "printedName": "serviceGoodsOrder(serviceKey:cookieId:userId:memberId:screenId:goods:memberData:)",
             "children": [
@@ -38715,7 +39081,7 @@
     {
       "filePath": "\/Users\/runner\/work\/groobee-kit-ios\/groobee-kit-ios\/Sources\/GroobeeKit\/Groobee.swift",
       "kind": "IntegerLiteral",
-      "offset": 107046,
+      "offset": 113772,
       "length": 1,
       "value": "0"
     },
